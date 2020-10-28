@@ -6,170 +6,225 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".St" >
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#9DD9F0">
+
         <LinearLayout
             android:id="@+id/ncut1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_centerInParent="true"
-            >
+            android:layout_centerInParent="true">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="國立勤益科技大學"
-                android:textSize="36dp"
-                android:textStyle="bold"
-                >
+                android:textSize="32dp"
+                android:textStyle="bold">
 
             </TextView>
 
         </LinearLayout>
+
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/ncut1"
-            android:layout_centerInParent="true">
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="澄德科技教育基金會2020大專校院機電創意實作競賽"
                 android:layout_gravity="center_horizontal"
-                android:textSize="10dp">
+                android:text="澄德科技教育基金會"
+                android:textSize="26dp">
 
             </TextView>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="2020大專校院機電創意實作競賽"
+                android:textSize="26dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="隊伍名稱:Weather box"
+                android:textSize="26dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="作品名稱:基於物聯網(IOT)之天氣感測與數據整合之研究"
-                android:layout_gravity="center_horizontal"
-                android:textSize="10dp">
+                android:textSize="16dp">
 
             </TextView>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="學生:郭柏鋒 呂家明 李易泰  "
-                android:layout_gravity="center_horizontal"
-                android:textSize="14dp">
+                android:textSize="16dp">
 
             </TextView>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="指導教授:黃國興教授 "
                 android:layout_gravity="center_horizontal"
+                android:text="指導教授:黃國興教授 "
                 android:textSize="17dp">
 
             </TextView>
         </LinearLayout>
+
         <LinearLayout
             android:id="@+id/startpage"
-            android:layout_centerInParent="true"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
             <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:src="@drawable/startpage">
 
             </ImageView>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo">
+
+            </ImageView>
+
         </LinearLayout>
+
+
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/startpage"
             android:layout_centerInParent="true">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="WEABOX"
-                android:textStyle="bold"
-                android:textSize="20dp"
                 android:textColor="#3F8CF3"
-                >
+                android:textSize="20dp"
+                android:textStyle="bold">
 
             </TextView>
         </LinearLayout>
+
         <LinearLayout
-            android:orientation="vertical"
             android:id="@+id/worker"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
-            android:layout_alignParentBottom="true">
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="指導單位:臺中巿政府教育局"
-                android:textSize="12dp"
-                android:layout_gravity="center_horizontal">
+                android:textSize="12dp">
 
             </TextView>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="主辦單位:財團法人臺中巿澄德科技教育基金會"
-                android:textSize="12dp"
-                android:layout_gravity="center_horizontal">
+                android:textSize="12dp">
 
             </TextView>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="贊助單位:明椿電氣機械股份有限公司"
-                android:textSize="12dp"
-                android:layout_gravity="center_horizontal">
+                android:textSize="12dp">
 
             </TextView>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:src="@drawable/logo1">
+
+            </ImageView>
 
         </LinearLayout>
         <LinearLayout
-            android:orientation="horizontal"
+            android:id="@+id/LOGO1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/startpage"
             android:layout_centerInParent="true"
-            android:layout_above="@+id/startpage">
+            android:orientation="horizontal">
 
             <DigitalClock
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12dp">
+                android:textSize="20dp">
 
             </DigitalClock>
 
 
-
-
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@+id/worker"
             android:layout_centerInParent="true">
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="進入主畫面"
-                android:onClick="start_btn">
+                android:onClick="start_btn"
+                android:text="進入主畫面">
 
             </Button>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/ncut1">
-
-
+            android:layout_below="@+id/ncut1"
+            android:layout_alignParentRight="true">
 
 
         </LinearLayout>
+
     </RelativeLayout>
 
 
