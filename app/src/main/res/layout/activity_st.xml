@@ -106,17 +106,28 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="關鍵字:WIFI傳輸 物聯網 Android studio"
-                android:textSize="15dp">
+                android:text="指導單位:臺中巿政府教育局"
+                android:textSize="12dp"
+                android:layout_gravity="center_horizontal">
 
             </TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="由呂家明和郭柏鋒共同製作 Version 1.0"
-                android:textSize="15dp">
+                android:text="主辦單位:財團法人臺中巿澄德科技教育基金會"
+                android:textSize="12dp"
+                android:layout_gravity="center_horizontal">
 
             </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="贊助單位:明椿電氣機械股份有限公司"
+                android:textSize="12dp"
+                android:layout_gravity="center_horizontal">
+
+            </TextView>
+
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"

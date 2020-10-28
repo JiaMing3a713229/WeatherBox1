@@ -64,6 +64,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void ent_btn(View view) {
-        webView.loadUrl("https://yntpcom.lionfree.net/10802apprenticeship/index.html?fbclid=IwAR3po3jt0-k3RBk9JHxyPYSKaQCIpd7V78lMOGFybTMlkFDixLkRyF9vcXk");
+        webView.loadUrl("http://yntpcom.youp.ga/competition/#");
     }
 }
