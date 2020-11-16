@@ -43,15 +43,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btn2(View view) {
-        webView.loadUrl("https://thingspeak.com/channels/1024822/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15");
+        webView.loadUrl("https://thingspeak.com/channels/1024822/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=%E9%9B%A8%E6%B0%B4%E6%84%9F%E6%B8%AC&type=line");
     }
 
     public void btn3(View view) {
-        webView.loadUrl("https://thingspeak.com/channels/1024822/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15");
+        webView.loadUrl("https://thingspeak.com/channels/1024822/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=PM2.5%E6%84%9F%E6%B8%AC&type=line");
     }
 
     public void btn4(View view) {
-        webView.loadUrl("https://thingspeak.com/channels/1024822/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15");
+        webView.loadUrl("https://thingspeak.com/channels/1024822/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=%E5%A4%AA%E9%99%BD%E7%B4%AB%E5%A4%96%E7%B7%9A%E6%84%9F%E6%B8%AC&type=line");
     }
 
     public void btn5(View view) {
@@ -64,6 +64,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void ent_btn(View view) {
-        webView.loadUrl("http://yntpcom.youp.ga/competition/#");
+        webView.loadUrl("https://yntpcom.youp.ga/competition/");
     }
 }

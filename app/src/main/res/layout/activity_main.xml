@@ -32,6 +32,8 @@
                 >
 
             </TextView>
+
+
         </LinearLayout>
 
         <LinearLayout
@@ -46,9 +48,71 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="指導教授:黃國興教授"
-                android:textSize="16dp"
+                android:text="澄德科技教育基金會"
+                android:textSize="26dp"
                 android:textStyle="bold"
+                >
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/numbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/teacher">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="2020大專校院機電創意實作競賽"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="隊伍名稱:Weather box"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="作品名稱:基於物聯網(IOT)之天氣感測與數據整合之研究"
+                android:textSize="16dp"
+
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="學生:郭柏鋒 呂家明 李易泰"
+                android:textSize="16dp"
+
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="指導教授:黃國興教授"
+                android:textSize="17dp"
+
                 >
 
             </TextView>
@@ -61,7 +125,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_above="@+id/select1"
-            android:layout_below="@+id/teacher"
+            android:layout_below="@+id/numbers"
 
             tools:ignore="WebViewLayout">
 
